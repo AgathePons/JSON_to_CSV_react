@@ -1,0 +1,8 @@
+.paragraph {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: aquamarine;
+  &__text {
+    color: indigo;
+  }
+}
