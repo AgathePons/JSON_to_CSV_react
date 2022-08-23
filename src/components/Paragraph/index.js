@@ -1,16 +1,17 @@
 // == Import
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Segment } from 'semantic-ui-react';
 import './styles.scss';
 
 // == Composant
 function Paragraph({ text }) {
   return (
-    <div className="paragraph">
+    <Segment className="paragraph">
       <p className="paragraph__text">
         {text}
       </p>
-    </div>
+    </Segment>
   );
 }
 
